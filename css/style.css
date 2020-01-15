@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: #48a1ba;
+}
+.container{
+    background: #efefef;
+        margin: 15px auto;
+        width:900px;
+        height: 800px;
+        padding: 10px;
+        border-radius: 7px;
+}
+
+.articolo{
+
+    margin: 6px auto;
+    width: 290px;
+    height: 350px;
+    background-color: lightgrey;
+    border-radius: 7px;
+    display: inline-block;
+    position: relative;
+}
+
+.imagesize{
+    max-height: 260px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+
+}
+
+.sconto30{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    background-image: url(https://cdn.shopify.com/s/files/1/1100/5534/articles/30-percento-promo2_600x.jpg?v=1472542744);
+    background-size: contain;
+    top: 0;
+    right: 0;
+    margin-top: 2px;
+    margin-right: 2px;
+}
